@@ -4,8 +4,8 @@ env:
   variables:
     IMAGE_NAME: my-web-app
     IMAGE_TAG: latest
-    REGISTRY_URL: "650781539051.dkr.ecr.us-east-1.amazonaws.com"
-    AWS_REGION: "us-east-1"
+    REGISTRY_URL: "650781539051.dkr.ecr.us-east-2.amazonaws.com"
+    AWS_REGION: "us-east-2"
     DOCKER_USER_NAME: "AWS"
     
     
