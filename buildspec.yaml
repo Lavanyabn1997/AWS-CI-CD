@@ -26,6 +26,7 @@ phases:
   post_build:
     commands:
       - echo Pushing the Docker image to ECR Registry...
+      - docker images
       - docker push ${REGISTRY_URL}/${IMAGE_NAME}:${IMAGE_TAG}
       - echo pushed the Docker image to Registry...
      
