@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spice Delight Restaurant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+        }
+        header {
+            background-color: #d35400;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #e67e22;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836');
+            background-size: cover;
+            background-position: center;
+            height: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px black;
+        }
+        .menu {
+            padding: 40px;
+            text-align: center;
+        }
+        .menu h2 {
+            margin-bottom: 30px;
+        }
+        .menu-items {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .item {
+            background-color: white;
+            padding: 20px;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .item h3 {
+            margin: 10px 0;
+        }
+        .price {
+            color: #d35400;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #d35400;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        button {
+            background-color: #d35400;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #a04000;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🍽️ Spice Delight</h1>
+    <p>Fresh • Delicious • Authentic</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="hero">
+    Taste the Best Food in Town
+</div>
+
+<section class="menu">
+    <h2>Our Popular Dishes</h2>
+    <div class="menu-items">
+
+        <div class="item">
+            <h3>Margherita Pizza</h3>
+            <p>Classic Italian pizza with fresh mozzarella and basil.</p>
+            <p class="price">$12</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="item">
+            <h3>Chicken Biryani</h3>
+            <p>Aromatic basmati rice cooked with tender chicken & spices.</p>
+            <p class="price">$15</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="item">
+            <h3>Veg Burger</h3>
+            <p>Grilled veggie patty with fresh lettuce and cheese.</p>
+            <p class="price">$10</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="item">
+            <h3>Chocolate Cake</h3>
+            <p>Rich and moist chocolate cake with creamy frosting.</p>
+            <p class="price">$8</p>
+            <button>Order Now</button>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Spice Delight Restaurant | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
