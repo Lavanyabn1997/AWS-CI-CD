@@ -11,9 +11,9 @@ env:
     
 
 phases:
- on-failure: ABORT
  pre_build:
-    commands:
+   on-failure: ABORT
+   commands:
       - echo Logging in to Amazon ECR...
       - aws --version
       - aws ecr get-login-password --region ${AWS_REGION} | docker login --username ${DOCKER_USER_NAME} --password-stdin ${REGISTRY_URL} 
