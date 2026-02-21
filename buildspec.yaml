@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    IMAGE_REPO_NAME: my-web-app
+    IMAGE_NAME: my-web-app
     IMAGE_TAG: latest
     REGISTRY_URL: "650781539051.dkr.ecr.us-east-1.amazonaws.com"
     AWS_REGION: "us-east-1"
@@ -11,8 +11,8 @@ env:
     
 
 phases:
-  pre_build:
-  on-failure: ABORT
+ on-failure: ABORT
+ pre_build:
     commands:
       - echo Logging in to Amazon ECR...
       - aws --version
